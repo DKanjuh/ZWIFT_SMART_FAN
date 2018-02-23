@@ -22,4 +22,19 @@ To install Zwift Mobile API client, run this command in your terminal:
     $ sudo chmod 777 /home/pi/zwift-client/zwift
 
 
+To install the actuel App, run this command in your terminal:
 
+    $ sudo git clone git://github.com/DKanjuh/ZWIFT_SMART_FAN.git
+    $ cd ZWIFT_SMART_FAN
+    $ cp Zwift2_1.py /home/pi/zwift-client/zwift
+   
+ Run application
+
+    $ cd /home/pi/zwift-client/zwift
+    $ python Zwift2_1.py
+    
+    
+    
+    
+Have fun !!!
+    
