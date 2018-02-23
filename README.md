@@ -11,7 +11,7 @@ You can either clone the public repository:
 
 
 
-    $ git clone git://github.com/jsmits/zwift-client
+    $ sudo git clone git://github.com/jsmits/zwift-client
     
    
 
