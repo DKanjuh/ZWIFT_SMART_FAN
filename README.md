@@ -1,0 +1,1 @@
+# ZWIFT_SMART_FAN
