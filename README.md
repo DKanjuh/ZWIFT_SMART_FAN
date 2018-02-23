@@ -17,6 +17,7 @@ You can either clone the public repository:
 
 To install Zwift Mobile API client, run this command in your terminal:
 
+    $ cd zwift-client
     $ sudo pip install zwift-client
 
 
