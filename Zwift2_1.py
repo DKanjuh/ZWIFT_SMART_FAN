@@ -29,7 +29,7 @@ Herzschwelle2=135
 Herzschwelle3=155
 Herz_Hyst=2
 
-cli = Client('drazen@kanjuh.de','Tr1athl0n1970')
+cli = Client('email','pw')
 world = cli.get_world()
 players = world.players
 friends= players['friendsInWorld']
