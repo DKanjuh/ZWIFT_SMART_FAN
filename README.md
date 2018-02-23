@@ -1,9 +1,6 @@
 # ZWIFT_SMART_FAN
 
-
-
 Installation
-
 
 From sources
 ------------
@@ -24,6 +21,5 @@ To install Zwift Mobile API client, run this command in your terminal:
 
 
 
-    $ git clone git://github.com/jsmits/zwift-client
 
 
