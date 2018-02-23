@@ -19,9 +19,7 @@ To install Zwift Mobile API client, run this command in your terminal:
 
     $ cd zwift-client
     $ sudo pip install zwift-client
-    $ cp Zwift2_0.py /home/pi/zwift-client/zwift
-
-
+    $ sudo chmod 777 /home/pi/zwift-client/zwift
 
 
 
