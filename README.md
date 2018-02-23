@@ -1,8 +1,6 @@
 # ZWIFT_SMART_FAN
 
 
-.. highlight:: shell
-
 ============
 Installation
 ============
