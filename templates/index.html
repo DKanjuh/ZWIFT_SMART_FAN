@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<head>
+   <title>ZWIFT SMART FAN</title>
+   <!-- Latest compiled and minified CSS -->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+   <!-- Optional theme -->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+   <!-- Latest compiled and minified JavaScript -->
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<meta http-equiv="refresh" content="3; URL=http://192.168.1.206:5000" /> 
+   
+
+</head>
+      
+</form>
+      <h1>ZWIFT SMART FAN</h1>
+ <!--     <h2>The date and time on the server is: {{ time }}</h2>   -->
+      <h2>HR    = {{ heart }} S/min</h2>
+      <h2>P     = {{ pow }} W</h2>
+      <h2>V     = {{ Vspeed }} km/h</h2>
+      <h2>Tritt = {{ cad }} U/min</h2>
+   </body>
+
+
+ <body>
+      
+      <h1>{{ response }}</h1>
+   </body>
+
+<body>
+   
+   {% for pin in pins %}
+   <h1>{{ pins[pin].name }}
+   {% if pins[pin].state == true %}
+      <div class="row"><div class="col-md-2">		
+      <a href="/{{pin}}/off" class="btn btn-block btn-lg btn-default" role="button">Turn off</a></div></div>
+   {% else %}
+      <div class="row"><div class="col-md-2">		
+      <a href="/{{pin}}/on" class="btn btn-block btn-lg btn-primary" role="button">Turn on</a></div></div>
+   {% endif %}
+   {% endfor %}
+</body>
+
+
+</html>
